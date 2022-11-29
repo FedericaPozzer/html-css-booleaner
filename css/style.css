@@ -5,6 +5,7 @@
 .intestazione {
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
+    background-size: 500px;
 }
 
 .logo {
@@ -15,6 +16,7 @@
 h1 {
     font-size: 65px;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 #writtenby {
@@ -30,22 +32,32 @@ span {
     color: grey;
 }
 
-table {
-    text-align: justify;
-    width: 100%;
-    table-layout: fixed;
+.didascalia {
+    font-size: 13px;
 }
+
+ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr.azzurro {
+    background-color: #b1e5f2;
+  }
 
 thead {
     background-color: #20a9e5;
     color: white;
-    
 }
 
-tr:nth-child(odd) {
-    background-color: #b1e5f2;
-  }
-
+.w-50 {
+    width: 50%;
+}
 
 .potrebbero {
     font-size: 18px;
@@ -55,11 +67,12 @@ tr:nth-child(odd) {
     margin-bottom: 10px;;
 }
 
-  .link {
+.link {
     height: 220px;
     background-repeat: no-repeat;
     color: white;
     font-size: 20px;
+    padding: 20px;
 }
 
 .monitor {
