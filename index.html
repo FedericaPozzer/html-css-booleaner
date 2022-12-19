@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>The Booleaner</title>
-    
+
+    <!-- link bonus css -->
+    <link rel="stylesheet" href="./css/bonus.css">
+    <!-- link "official" css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -11,10 +14,12 @@
     <header>
         <!-- titolo h1 / p / p / 2ximg-->
         <div class="intestazione">
-            <img src="./img/logo.svg" alt="logo" class="logo">
+            <div class="container">
+                <img src="./img/logo.svg" alt="logo" class="logo">
+            </div>
         </div>
 
-        <section>
+        <section class="container">
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             
             <div>
@@ -22,26 +27,26 @@
                 <p id="date">il 10/10/2020</p>
             </div>
 
-            <!-- BETTER:
+                <!-- BETTER:
                 <address>
                 <author>Scritto da <a href="#">Trullallero</a></author>
                 <br>
                 <time datetime="2020-10-10">il 10/10/2020</time>
-            </address> -->
+                </address> -->
         </section>
         
-        <picture>
-            <img src="./img/tim-1.jpg" alt="Tim1">
-            <img src="./img/tim-2.jpg" alt="Tim2">
-        </picture>
+        <div class="container">
+                <img src="./img/tim-1.jpg" alt="Tim1">
+                <img src="./img/tim-2.jpg" alt="Tim2">
+        </div>
         
-        <section class="didascalia">
+        <section class="didascalia container">
             <p>1st Photo: John S. and James L. Knight Foundation, by Scotto Henrichsen<br>2nd Photo: Wikimedia, by Paul Clarke</p>
         </section>
             
     </header>
     
-    <main>
+    <main class="container">
         
         <article>
             <!-- lorem / ul / table / lorem -->
